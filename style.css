@@ -8,6 +8,12 @@
 h1{
     overflow: hidden;
 }
+h3{
+    overflow: hidden;
+}
+h2{
+    overflow: hidden;
+}
 h5{
     overflow: hidden;
 }
@@ -79,4 +85,26 @@ h5{
 }
 .abtcont p{
     text-align: justify;
+}
+.skillproject{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(175,181,181);
+}
+.skillbox{
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+@media(max-width:992px){
+    .lastbox{
+        margin-left: 50px;
+    }
+}
+.projectbox{
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
